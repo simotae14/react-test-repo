@@ -20,7 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "test:cov": "npm test -- --coverage --watchAll=false"
   },
   "browserslist": {
     "production": [
@@ -36,6 +37,7 @@
   },
   "devDependencies": {
     "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.2"
+    "enzyme-adapter-react-16.2": "^1.6.2",
+    "jest-enzyme": "^7.1.2"
   }
 }
